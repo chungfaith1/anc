@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "anc"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+simpleaudio = "^1.0.4"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+wave = "^0.0.2"
+pydub = "^0.25.1"
+ipykernel = "^6.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
